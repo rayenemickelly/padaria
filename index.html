@@ -7,56 +7,86 @@
     <title>Pão na chapa</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    
-        <header>
-            <img src="imagens/logo.png" alt="pão na chapa" srcset="">
-            <nav>
-                <ul>
-                    <li><a href="#">inicio</a></li>
-                    <li><a href="https://www.instagram.com/rayenemickelly_/">instagram</a></li> <!---shift+alt e F deixa tudo indentado-->
-                    <li><a href="#">sobre</a></li>
-                    <li><a href="#">produtos</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <section>
-                <h2>bem vindo á Padaria Pão na Chapa</h2>
-                <p>Na padaria pão na chapa oferecemos o melhor pão caseiro, a melhor padaria da região com os melhores preços,
-                    nossos ingredientes são frescos e saudaveis, aqui os pães são assados diariamente.
 
+    <header>
+        <img src="imagens/logo.png" alt="pão na chapa" srcset="">
+
+        <nav class="menu">
+            <ul>
+                <li><a href="#introducao">INICIO</a></li>
+                <li><a target="_blank" href="https://www.instagram.com/rayenemickelly_/">INSTAGRAM</a></li>
+                <!---shift+alt e F deixa tudo indentado-->
+                <li><a href="#sobre-nos">SOBRE</a></li>
+                <li><a href="#produtos">PRODUTOS</a></li>
+                <li><a href="#contato">CONTATO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="introducao">
+            <div class="texto">
+                <h2>Bem vindo á Padaria Pão na Chapa</h2>
+                <p>Se você está em busca de um lugar onde o aroma do pão fresquinho e o calor do atendimento se
+                    encontram,
+                    venha para a Pão na Chapa! Nossa padaria é o destino perfeito para quem ama um café da manhã
+                    delicioso ou um lanche da tarde cheio de sabor.
+                    Estamos localizados no coração da cidade, prontos para receber você de braços abertos. Traga sua
+                    família e amigos para desfrutar de um momento saboroso e acolhedor.
+                    Na Pão na Chapa, cada visita é uma nova experiência deliciosa!
                 </p>
-            </section>
-            <section>
-                <h2>nossos produtos</h2>
-                <div>
-                    <div>
-                        <h3>Pães</h3>
-                        <p>
-                            temos uma variedade de pães, como pão frances, pão de forma, baguetes e muito mais.
-                        </p>
-                    </div>
-                    <div>
-                        <h3>Bolo</h3>
-                        <p>
-                            oferecemos bolo fresquinhos, tortas e uma seleção de doces como sonhos, brigadeiros e brownies. 
-                        </p>
-                    </div>
-                    <div>
-                        <h3>Salgados</h3>
-                        <p>
-                            seja para um lanche rapido ou uma festa nossos salgados são feitos na hora, com opções como coxinha, risoles, esfihas e muito mais. 
-                        </p>
-                    </div>
-                    
+            </div>
+            <div class="cesta">
+                <img class="img-cesta" src="./imagens/pao.png" alt="pão">
+            </div>
+        </section>
+        <section id="sobre-nos">
+            <h2>Sobre nós</h2>
+            <p>
+                Fundada em 1990, a Padaria Pão na Chapa é referência
+                na região pela qualidade dos nossos pães e atendimento
+                amigável. Nosso objetivo é proporcionar uma experiência
+                acolhedora e saborosa para todos os nossos clientes, seja
+                para aquele café da manhã especial ou para o lanche da tarde.
+            </p>
+        </section>
+
+        <section id="produtos">
+            <h2>Nossos Produtos</h2>
+            <div class="conteudo-produtos">
+                <div class="produto">
+                    <h3>Pães</h3>
+                    <p>
+                        Temos uma variedade de pães, como pão francês,
+                        pão de forma, baguetes e muito mais.
+                    </p>
                 </div>
-            </section>
-        </main>
+                <div class="produto">
+                    <h3>Bolos</h3>
+                    <p>
+                        Oferecemos bolos fresquinhos, tortas e uma seleção
+                        de doces como sonhos,brigadeiros e brownies.
+                    </p>
+                </div>
+                <div class="produto">
+                    <h3>Salgados</h3>
+                    <p>
+                        Seja para um lanche rápido ou uma festa, nossos Salgados
+                        são fritos na hora, com opções como coxinha, risoles, esfihas
+                        e muito mais
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer>
-        <section>
+        <section id=contato>
             <h2>Contato</h2>
             <p>Email: paonachapa@gmail.com</p>
             <p>Endereço: Rua do Pão, 12 - centro - São Paulo</p>
