@@ -1,0 +1,182 @@
+html {
+    scroll-behavior: smooth;
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+}
+
+
+body {
+    margin: 0;
+    background-color: #dfb88b;
+}
+
+header {
+    display: flex;
+    margin: 0;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: rgba(218, 133, 48, 0.774);
+    align-items: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+
+}
+
+.logo {
+    height: 9px;
+
+}
+
+.menu ul {
+    display: flex;
+    list-style-type: none;
+
+}
+
+
+.menu li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.cesta {
+    width: 30%;
+    margin-left: 400px;
+}
+
+.img-cesta{
+    width: 300px;
+    height: 300px;
+}
+
+#introducao {
+    display: flex;
+    height: 250px;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.texto{
+    width: 60%;
+}
+
+#introdução div {
+    width: 50%;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 50px;
+
+}
+
+#sobre-nos {
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: rgba(218, 133, 48, 0.774);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+
+#produtos {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+
+.conteudo-produtos {
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.produto {
+    width: 200px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding-top: 25px;
+    background-color: rgba(218, 133, 48, 0.774);
+    color: white;
+    padding-bottom: 25px;
+}
+
+footer p {
+    margin: 0;
+}
+
+#form-contato{
+    width: 60%;
+    background-color: #fff;
+    border-radius :   10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.grupo{
+    font-weight: bold;
+    color: black;
+}
+
+
+.grupo input,
+.grupo textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.grupo input:focus,
+.grupo textarea:focus{
+    border-color: rgb(197, 137, 59);
+    outline: none;
+}
+
+
+#contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+
+#contato button{
+  width: 100%;
+  max-width: 400px;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgb(255, 213, 158);  
+  color: white;
+  border: nome;
+  cursor: pointer;
+  transition: 0,3 ease;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+   
+
+#contato button:hover {
+    background-color: rgb(122, 61, 0);
+}
